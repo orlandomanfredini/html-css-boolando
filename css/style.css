@@ -44,7 +44,7 @@ header{
 }
 
 
-.container h2{
+.container h2, .container h4{
     padding: 40px 20px 0 20px;
 }
 
