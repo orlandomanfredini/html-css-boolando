@@ -23,8 +23,18 @@ a{
 
 /* Layout */
 
+body{
+    font-family: 'Abel', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Nabla', system-ui;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
 header{
-    min-height: 100px;
     background-color: tomato;
 }
 
@@ -33,11 +43,66 @@ header{
     max-width: 1000px;
 }
 
+
+.container h2{
+    padding: 40px 20px 0 20px;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
     justify-content: space-between;
+}
+
+.head-content{
+    min-height: 80px;
+    line-height: 80px;
+}
+
+.head-content.row{
+    justify-content: space-between;
+}
+
+.gender{
+    width: 30%;
+}
+
+.gender-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.gender-list a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.logo{
+    max-width: 150px;
+    vertical-align: middle;
+    
+}
+
+.logo img{
+   position: relative;
+   top: 10px;
+}
+
+
+.icon{
+    width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.icon img:hover{
+   filter: invert(100%);
 }
 
 .col-3{
@@ -64,7 +129,7 @@ header{
     padding: 5px;
     position: absolute;
     bottom: 10px;
-    left: 55px;
+    left: 60px;
     z-index: 1;
 }
 
@@ -96,6 +161,7 @@ header{
     right: 10px;
     z-index: 1;
 }
+
 
 .row.add-prd{
     justify-content: center;
