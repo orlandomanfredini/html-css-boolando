@@ -71,9 +71,14 @@ header{
 .gender-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    
+    
+}
+
+.gender-list li{
+    min-width: ;
 }
 
 .gender-list a:hover{
